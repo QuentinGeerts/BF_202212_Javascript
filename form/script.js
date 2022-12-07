@@ -23,5 +23,5 @@ form.addEventListener('submit', (e) => {
     console.log(form[2].value);
     console.log(form['code-postal'].value);
     // console.log(form.code-postal.value); // Ne fonctionne pas
-    
-})
+
+});
