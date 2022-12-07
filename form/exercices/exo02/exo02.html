@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form>* {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="form">
+        <label for="lastname">Nom :</label>
+        <input type="text" name="lastname" id="lastname">
+        <label for="firstname">Prénom :</label>
+        <input type="text" name="firstname" id="firstname">
+        <label for="cp">Code postal :</label>
+        <input type="text" name="cp" id="cp">
+
+        <div>
+            <input type="submit" value="Envoyer">
+            <input type="button" value="Auto-compléter" name="autocomplete">
+            <input type="button" value="Reset" name="resetBtn">
+        </div>
+    </form>
+
+    <script src="exo02.js"></script>
+</body>
+
+</html>
